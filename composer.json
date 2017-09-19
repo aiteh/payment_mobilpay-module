@@ -1,0 +1,27 @@
+{
+    "name": "aiteh/payment_mobilpay-module",
+    "type": "streams-addon",
+    "description": "Pyro - Laravel 5 mobilpay wrapper around omnipay with omnipay-mobilpay driver",
+    "license": "MIT",
+    "homepage": "https://aiteh.eu/",
+    "authors": [
+        {
+            "name": "eddieol",
+            "email": "eduard@aiteh.eu",
+            "homepage": "https://aiteh.eu/",
+            "role": "Owner"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "5.0.* || 5.1.* || 5.2.* || 5.3.* || 5.4.*",
+        "omnipay/common": "~2.0",
+        "business-mastery/omnipay-mobilpay": "~1.0",
+        "adrianbarbos/mobilpay":"~1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aiteh\\PaymentMobilpayModule\\": "src/"
+        }
+    }
+}
