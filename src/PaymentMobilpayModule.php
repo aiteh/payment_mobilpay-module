@@ -17,7 +17,7 @@ class PaymentMobilpayModule extends Module
      *
      * @var string
      */
-    protected $icon = 'fa fa-puzzle-piece';
+    protected $icon = 'fa fa-money';
 
     /**
      * The module sections.
@@ -26,9 +26,7 @@ class PaymentMobilpayModule extends Module
      */
     protected $sections = [
         'payments' => [
-            'buttons' => [
-                'new_payment',
-            ],
+        
         ],
     ];
 

@@ -3,5 +3,8 @@
 return [
     'title'       => 'Payment Mobilpay',
     'name'        => 'Payment Mobilpay Module',
-    'description' => ''
+    'description' => '',
+    'section' => [
+        'payments' => 'Payments'
+    ]
 ];
